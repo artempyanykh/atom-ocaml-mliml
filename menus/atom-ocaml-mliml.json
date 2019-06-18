@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Switch between OCaml code and interface files",
+        "command": "atom-ocaml-mliml:switch"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "OCaml Mliml",
+          "submenu": [
+            {
+              "label": "Switch to code/interface",
+              "command": "atom-ocaml-mliml:switch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

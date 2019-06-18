@@ -1,0 +1,5 @@
+{
+  "atom-text-editor[data-grammar='source ocaml']": {
+    "ctrl-alt-o": "atom-ocaml-mliml:switch"
+  }
+}
